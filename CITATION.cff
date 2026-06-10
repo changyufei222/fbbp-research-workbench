@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the tagged release and the associated article when available."
+type: software
+title: "FBBP Research Workbench"
+version: 1.0.0
+date-released: 2026-06-10
+authors:
+  - family-names: "Chang"
+    given-names: "Yufei"
+repository-code: "https://github.com/changyufei222/fbbp-research-workbench"
+url: "https://github.com/changyufei222/fbbp-research-workbench"
+keywords:
+  - "bioinformatics"
+  - "ai-agents"
+  - "research-agent"
+  - "rag"
+  - "biomedical-informatics"

@@ -1,20 +1,36 @@
-> Interface guide: [English](./INTERFACE_GUIDE_EN.md) | [中文](./INTERFACE_GUIDE_CN.md)
+[**English**](./README.md) | [中文](./README_CN.md)
 
 # FBBP Research Workbench
 
-An FBBP-focused research workbench for private-knowledge-grounded literature review, database analysis, evidence synthesis, formal case execution, and report generation.
+[![Repository quality](https://github.com/changyufei222/fbbp-research-workbench/actions/workflows/repository-quality.yml/badge.svg)](https://github.com/changyufei222/fbbp-research-workbench/actions/workflows/repository-quality.yml)
+[![Release](https://img.shields.io/github/v/release/changyufei222/fbbp-research-workbench?display_name=tag)](https://github.com/changyufei222/fbbp-research-workbench/releases)
+[![Citation](https://img.shields.io/badge/citation-CITATION.cff-2f6f9f.svg)](./CITATION.cff)
 
+A biomedical agent control plane for evidence-grounded FBBP research, formal case execution, evaluation, and report generation.
+
+**Status:** Portfolio-ready integrated research system | **Public release:** 2026-06-10
+
+| Start here | Resource |
+|---|---|
+| Primary documentation | [Architecture](./docs/agent-control-plane-architecture.md) |
+| Reproducibility / implementation | [Demo runbook](./docs/interview-demo-runbook.md) |
+| Verified outcomes | [Result summary](./FINAL_RESULT_SUMMARY.md) |
+
+![FBBP formal research console](./artifacts/20260418_155831_fbbp_formal_console_v2/screenshots/fbbp_formal_console.png)
+
+---
 ## Job-Ready Project Snapshot
 
 This repository is now best presented as a `Biomedical Agent Control Plane` rather than a simple RAG demo.
 
 It provides a unified product layer that routes user requests, delegates execution to existing RAG/formal/batch/report runners, records every run, and exports evaluation evidence for interview or portfolio review.
 
-Verified capabilities and evidence:
+Publicly packaged capabilities and evidence:
 
-- Full readiness baseline: `6/6` checks passing in `runs/control_plane/readiness/live_full/readiness_summary.json`
-- Interview-safe fast demo: `3/3` checks passing in `runs/control_plane/readiness/job_demo_fast/readiness_summary.json`
-- `50+` aggregated control-plane run records in `../llm-eval-benchmark/reports/control_plane_dashboard/latest/summary.json`
+- Deterministic 12-scaffold atlas under `final_results/fbbp_formal_atlas_v2026_04/`
+- Formal validation and rerun guidance in `docs/formal_case_validation.md` and `docs/formal_runbook.md`
+- Checked-in console screenshot under `artifacts/20260418_155831_fbbp_formal_console_v2/`
+- Rebuild and demo entry points under `scripts/`
 - Rule-first intent router for `private_rag`, `public_lookup`, `formal_case`, `batch_eval`, `report_generation`, and `fallback_general`
 - Session memory read/write/resume with compact run summaries
 - A2A-compatible v1 gateway, worker queue, retry, dead-letter handling, trace id, hop metadata, streaming, push config, and API-key auth
@@ -85,7 +101,7 @@ flowchart TD
 4. Start the local FBBP Research Workbench from the project directory:
 
    ```powershell
-   cd <local_path_removed>
+   cd <workspace-root>
    powershell -ExecutionPolicy Bypass -File .\fbbp-research-workbench\scripts\launch_fbbp_workbench.ps1
    ```
 
@@ -220,6 +236,8 @@ powershell -ExecutionPolicy Bypass -File .\scripts\demo_job_ready_control_plane.
 ```
 
 ### Control-Plane Live Notes
+The `runs/` and generated dashboard paths below describe runtime outputs from the verified local system; those bulky run directories are intentionally excluded from this public portfolio package.
+
 - `private_rag` live execution now succeeds through the unified control-plane entry.
 - `formal_case` live execution now succeeds through the unified control-plane entry.
 - `batch_eval` live execution now succeeds through the unified control-plane entry.
@@ -271,4 +289,6 @@ powershell -ExecutionPolicy Bypass -File .\scripts\demo_job_ready_control_plane.
 - Redis/Postgres queue backends are adapter-ready; production activation requires real `FBBP_A2A_REDIS_URL` or `FBBP_A2A_POSTGRES_DSN`.
 - OIDC hooks are implemented; production deployment still needs a real issuer/JWKS/scope policy.
 - The dashboard now runs as a local HTTP control console with health, snapshot refresh, and rebuild APIs; multi-user SaaS hosting still remains a future production step.
+
+
 
