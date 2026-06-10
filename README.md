@@ -1,3 +1,5 @@
+> Interface guide: [English](./INTERFACE_GUIDE_EN.md) | [中文](./INTERFACE_GUIDE_CN.md)
+
 # FBBP Research Workbench
 
 An FBBP-focused research workbench for private-knowledge-grounded literature review, database analysis, evidence synthesis, formal case execution, and report generation.
