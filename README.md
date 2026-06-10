@@ -37,7 +37,7 @@ Publicly packaged capabilities and evidence:
 - Redis/Postgres queue backend adapters with local probes (`probe_redis_queue.py`, `probe_postgres_queue.py`) and file-queue fallback for offline demos
 - ReAct-style trace artifacts (`react_trace.jsonl` / `react_trace.json`) for plan, tool call, observation, revision, and report phases
 - Production hardening templates for Redis/Postgres queue backend, OIDC proxy auth, and A2A conformance checks
-- Unified observability and agent eval metrics: route, tool success rate, memory hit, latency, cost placeholder, judge score, and preflight hit rate
+- Unified observability and agent eval metrics: route, tool success rate, memory hit, latency, cost estimate field, judge score, and preflight hit rate
 - Direct project links to private RAG, MCP tool plane, eval harness, MiniMind query compiler, and upstream DeerFlow runtime
 - Live portfolio dashboard service at `http://127.0.0.1:8088` backed by rebuildable snapshot artifacts
 - Semantic long-term memory store with merge/conflict queue and HTML viewer
@@ -256,7 +256,7 @@ The `runs/` and generated dashboard paths below describe runtime outputs from th
 - Memory loop verification artifacts:
   - write example: `runs/control_plane/private_rag_live_demo_v7/`
   - resume example: `runs/control_plane/private_rag_memory_resume_demo_v1/`
-- The checked-in agent memory file is no longer an empty placeholder:
+- The checked-in agent memory file is no longer an empty shell:
   - `configs/agents/fbbp-assistant/memory.json` now receives compact control-plane summaries automatically
 - Long-term semantic memory now writes to:
   - `runs/control_plane/memory/semantic_memory.json`

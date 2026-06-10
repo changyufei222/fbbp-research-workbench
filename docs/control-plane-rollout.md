@@ -476,7 +476,7 @@ runs/control_plane/<run_id>/
 #### 7.2.4 v1 不做的事
 
 - 不直接把所有 tool output 原封不动写进长期 memory
-- 不把会话中的上传路径和临时文件路径写进长期 memory
+- 不把会话中的上传路径和非发布运行路径写进长期 memory
 - 不把 memory 当数据库替代品
 
 #### 7.2.5 在各仓库中的落点
@@ -1010,7 +1010,7 @@ minimind-fbtp-lab/
 
 - 用内部统一 envelope 管理 parent/child 任务
 - 先统一内部契约，再考虑外部标准协议
-- 明确区分“内部 A2A lifecycle 已完成”和“外部标准 A2A/远程 worker 还未完成”
+- 明确区分“内部 A2A lifecycle 已实现”和“外部标准 A2A/远程 worker 属于扩展范围”
 
 主仓库改动：
 
@@ -1296,7 +1296,7 @@ MiniMind 在 v1 是次级能力：
 
 长期 memory 只放稳定信息。
 
-运行态文件、tool 原始输出、临时路径、上传路径，不进入长期 memory。
+运行态文件、tool 原始输出、非发布运行路径、上传路径，不进入长期 memory。
 
 ### 12.4 不要在 Phase 1 先改上游
 

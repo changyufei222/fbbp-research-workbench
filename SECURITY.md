@@ -7,7 +7,7 @@ Do not post credentials, private datasets, unpublished confidential material, or
 ## Secrets
 
 - Use environment variables or an untracked `.env` file for credentials.
-- Treat example tokens and local endpoints as placeholders.
+- Treat example tokens and local endpoints as non-production examples.
 - Revoke and rotate any credential that is committed accidentally.
 
 ## Research-use boundary

@@ -108,7 +108,7 @@ Dashboard 证据：
 - tool success rate
 - memory hit
 - latency
-- cost placeholder
+- cost estimate field
 - judge score
 - preflight hit rate
 - A2A envelope / hop count

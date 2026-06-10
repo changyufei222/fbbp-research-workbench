@@ -15,7 +15,7 @@ Biomedical Agent Control Plane for FBBP Research Workflows
 - 补齐生产化 hardening 层，提供 Redis/Postgres queue backend 模板、OIDC reverse-proxy/JWT claims 接入点、A2A conformance coverage check 和 hardening summary。
 - 打通 session memory 写入、读取、压缩摘要和 resume state，使系统从 stateless API 调用升级为可延续的多轮任务执行框架。
 - 实现长期语义记忆 store，支持相似记忆自动 merge、冲突队列、语义检索和 HTML 可视化管理页面。
-- 统一 run record 与 observability 指标，记录 route、tool success rate、memory hit、latency、cost placeholder、judge score、preflight hit rate，并将 `50+` 条运行记录汇总到 eval dashboard。
+- 统一 run record 与 observability 指标，记录 route、tool success rate、memory hit、latency、cost estimate field、judge score、preflight hit rate，并将 `50+` 条运行记录汇总到 eval dashboard。
 - 完成本地 live readiness 验证，覆盖 PostgreSQL bridge、A2A worker e2e、MiniMind secondary、private RAG、public lookup 和 eval dashboard，当前 `6/6` 检查通过。
 
 ## English Resume Version
@@ -29,7 +29,7 @@ Stack: `Python`, `MCP`, `PostgreSQL/pgvector`, `WSL`, `LangGraph-style RAG`, `JS
 - Added a production-hardening layer with Redis/Postgres queue backend templates, OIDC reverse-proxy/JWT-claims hooks, A2A conformance coverage checks, and hardening summaries.
 - Added session memory read/write, compact summaries, and resume state so multi-step research workflows can continue across runs instead of behaving as stateless API calls.
 - Implemented a long-term semantic memory store with automatic merge, conflict queue, semantic retrieval, and an HTML management view.
-- Standardized run records and observability metrics including route, tool success rate, memory hit, latency, cost placeholder, judge score, and preflight hit rate, then exported `50+` run records into an eval dashboard.
+- Standardized run records and observability metrics including route, tool success rate, memory hit, latency, cost estimate field, judge score, and preflight hit rate, then exported `50+` run records into an eval dashboard.
 - Verified the live system with `6/6` readiness checks across PostgreSQL bridge, A2A worker e2e, MiniMind secondary capability, private RAG, public lookup, and eval dashboard generation.
 
 ## Short Version For A Crowded Resume

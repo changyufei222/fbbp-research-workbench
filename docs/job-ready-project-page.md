@@ -94,7 +94,7 @@ Every run can write:
 - Tool success rate
 - Memory hit
 - Latency
-- Cost placeholder
+- Cost estimate field
 - Judge score
 - Preflight hit rate
 - A2A hop/envelope counts
