@@ -1,0 +1,53 @@
+name: fbbp-control-plane
+
+services:
+  postgres:
+    image: ankane/pgvector:latest
+    container_name: fbbp-postgres
+    environment:
+      POSTGRES_DB: ragkb
+      POSTGRES_USER: ragkb
+      POSTGRES_PASSWORD: ragkb
+    ports:
+      - "5432:5432"
+    volumes:
+      - fbbp_pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ragkb -d ragkb"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+  redis:
+    image: redis:7-alpine
+    container_name: fbbp-redis
+    ports:
+      - "6379:6379"
+    command: ["redis-server", "--appendonly", "yes"]
+    volumes:
+      - fbbp_redisdata:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+  dashboard:
+    build:
+      context: .
+      dockerfile: Dockerfile.dashboard
+    container_name: fbbp-dashboard
+    ports:
+      - "8088:8088"
+    depends_on:
+      - postgres
+      - redis
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8088/health', timeout=5)"]
+      interval: 15s
+      timeout: 8s
+      retries: 10
+
+volumes:
+  fbbp_pgdata:
+  fbbp_redisdata:

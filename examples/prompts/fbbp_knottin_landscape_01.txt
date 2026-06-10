@@ -1,0 +1,22 @@
+You have access to a private knowledge MCP server for the real FBBP database.
+
+Please follow these rules:
+1. Use the private MCP tool `search_knowledge` first, with `query="knottin scaffold structural features target classes"`, `top_k=5`, `include_evidence=true`, and `answer_mode='extractive'`.
+2. Prefer the retrieved FBBP evidence over generic web search.
+3. If the first `search_knowledge` response already contains a usable answer with evidence rows, stop calling tools and write the final response immediately.
+4. If you use filters, only use supported filter syntax such as:
+   - `field=value`
+   - `field~substring`
+   - `field<3.0`
+5. Do not call `search_knowledge` more than 2 times for this task.
+
+Task:
+- Start with the exact FBBP search above and do not spend time on extra planning before the tool call
+- Summarize the typical structural features, common target classes, and the most informative source identifiers returned by the database
+- Keep the output compact and evidence-backed
+- If a requested detail is not available in retrieved evidence, say `not available in retrieved evidence`
+
+Output requirements:
+- concise conclusion
+- short evidence table
+- explicit limitations

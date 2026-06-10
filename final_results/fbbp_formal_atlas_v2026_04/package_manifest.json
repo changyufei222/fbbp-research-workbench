@@ -1,0 +1,20 @@
+{
+  "dataset_name": "FBBP",
+  "dataset_version": "fbbp_private_v2026_04",
+  "runtime_profile": "local_formal",
+  "formal_db_mode": "reuse_prepared_full_formal_db",
+  "db_identity": "fbbp_formal_pgvector",
+  "build_id": "fbbp-2026-04-formal",
+  "source_registry_version": "2026-04-16",
+  "package_version": "2026.04.18",
+  "generated_at_utc": "2026-04-20T14:11:22.797563+00:00",
+  "generator": "build_fbbp_formal_package.py",
+  "snapshot_root": "<local_path_removed>",
+  "snapshot_manifest": "<local_path_removed>",
+  "scaffold_count": 12,
+  "interaction_card_count": 1996,
+  "protein_card_count": 1996,
+  "raw_record_count": 86564,
+  "target_linked_row_count": 41,
+  "source_registry_count": 34
+}

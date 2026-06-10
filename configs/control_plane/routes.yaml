@@ -1,0 +1,68 @@
+version: 1
+default_primary_route: fallback_general
+mode_overrides:
+  formal: formal_case
+  batch: batch_eval
+  report: report_generation
+  interactive: ""
+file_rules:
+  - route: formal_case
+    reason: formal case config detected
+    fields:
+      - case_path
+    path_globs:
+      - configs/formal_cases/*.yaml
+  - route: batch_eval
+    reason: formal batch config detected
+    fields:
+      - batch_path
+    path_globs:
+      - configs/formal_batches/*.yaml
+  - route: report_generation
+    reason: report artifact input detected
+    fields:
+      - report_json
+      - evidence_json
+      - run_dir
+    path_globs:
+      - runs/*/report.json
+      - runs/*/evidence.json
+      - batches/*/batch_results.json
+    required_children:
+      - report.json
+keyword_rules:
+  private_rag:
+    any_keywords:
+      - 私有
+      - 知识库
+      - 数据库
+      - fbbp
+      - scaffold
+      - target
+      - candidate
+      - binder
+      - provenance
+      - card
+      - source
+      - knottin
+      - loop
+      - atlas
+  public_lookup:
+    any_keywords:
+      - pubmed
+      - uniprot
+      - pdb
+      - 文献
+      - 公开资料
+      - 公开文献
+      - 网页
+      - paper
+      - papers
+  report_generation:
+    any_keywords:
+      - 报告
+      - 总结
+      - memo
+      - report
+      - 汇总
+      - 生成报告

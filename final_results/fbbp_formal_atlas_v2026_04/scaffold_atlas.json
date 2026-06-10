@@ -1,0 +1,1129 @@
+[
+  {
+    "scaffold": "adnectin",
+    "entry_count": 456,
+    "protein_count": 456,
+    "engineered_yes_count": 243,
+    "engineered_no_count": 213,
+    "engineered_unknown_count": 0,
+    "organism_count": 5,
+    "top_organisms": [
+      [
+        "Homo sapiens",
+        173
+      ],
+      [
+        "Artificial",
+        6
+      ],
+      [
+        "artificial",
+        5
+      ],
+      [
+        "synthetic",
+        5
+      ],
+      [
+        "Synthetic",
+        5
+      ]
+    ],
+    "target_linked_row_count": 37,
+    "top_targets": [
+      [
+        "CD8A",
+        16
+      ],
+      [
+        "EGFR",
+        11
+      ],
+      [
+        "ICAM-2",
+        4
+      ],
+      [
+        "TNFRSF9",
+        3
+      ],
+      [
+        "c-Met",
+        2
+      ]
+    ],
+    "top_interaction_classes": [
+      [
+        "protein-protein",
+        15
+      ],
+      [
+        "EGFR",
+        5
+      ],
+      [
+        "Fc gamma receptor IIA (FcγRIIA)",
+        2
+      ],
+      [
+        "PD-L1",
+        1
+      ]
+    ],
+    "top_proteins": [
+      [
+        "Tencon",
+        60
+      ],
+      [
+        "10Fn3",
+        38
+      ],
+      [
+        "Fibronectin type III domain",
+        37
+      ],
+      [
+        "Tencon27",
+        26
+      ],
+      [
+        "Tenascin-C",
+        14
+      ]
+    ],
+    "source_tables": [
+      [
+        "interactions",
+        456
+      ],
+      [
+        "domains",
+        456
+      ],
+      [
+        "proteins",
+        456
+      ],
+      [
+        "affinity_data",
+        456
+      ],
+      [
+        "target_species_variants",
+        37
+      ],
+      [
+        "targets_conceptual",
+        37
+      ],
+      [
+        "sources",
+        31
+      ]
+    ],
+    "representative_interactions": [
+      "INT-00084",
+      "INT-00085",
+      "INT-00101",
+      "INT-00132",
+      "INT-00133"
+    ]
+  },
+  {
+    "scaffold": "cyclotide",
+    "entry_count": 404,
+    "protein_count": 404,
+    "engineered_yes_count": 9,
+    "engineered_no_count": 395,
+    "engineered_unknown_count": 0,
+    "organism_count": 18,
+    "top_organisms": [
+      [
+        "Momordica cochinchinensis",
+        10
+      ],
+      [
+        "Clitoria ternatea",
+        10
+      ],
+      [
+        "Viola odorata",
+        6
+      ],
+      [
+        "Oldenlandia affinis",
+        5
+      ],
+      [
+        "Viola hederacea",
+        3
+      ]
+    ],
+    "target_linked_row_count": 2,
+    "top_targets": [
+      [
+        "OPRK1",
+        2
+      ]
+    ],
+    "top_interaction_classes": [
+      [
+        "protein-protein interaction inhibitor",
+        3
+      ],
+      [
+        "GPCR",
+        2
+      ]
+    ],
+    "top_proteins": [
+      [
+        "MCoTI-II",
+        6
+      ],
+      [
+        "Momordica cochinchinensis trypsin inhibitor-II",
+        2
+      ],
+      [
+        "Kalata B2",
+        2
+      ],
+      [
+        "Kalata B1",
+        2
+      ],
+      [
+        "circulin F",
+        1
+      ]
+    ],
+    "source_tables": [
+      [
+        "interactions",
+        404
+      ],
+      [
+        "domains",
+        404
+      ],
+      [
+        "proteins",
+        404
+      ],
+      [
+        "affinity_data",
+        404
+      ],
+      [
+        "sources",
+        10
+      ],
+      [
+        "target_species_variants",
+        2
+      ],
+      [
+        "targets_conceptual",
+        2
+      ]
+    ],
+    "representative_interactions": [
+      "INT-00009",
+      "INT-00028",
+      "INT-00029",
+      "INT-00057",
+      "INT-00058"
+    ]
+  },
+  {
+    "scaffold": "knottin",
+    "entry_count": 310,
+    "protein_count": 310,
+    "engineered_yes_count": 98,
+    "engineered_no_count": 212,
+    "engineered_unknown_count": 0,
+    "organism_count": 45,
+    "top_organisms": [
+      [
+        "Momordica cochinchinensis",
+        33
+      ],
+      [
+        "Homo sapiens",
+        31
+      ],
+      [
+        "Ecballium elaterium",
+        29
+      ],
+      [
+        "Cyriopagopus hainanus",
+        11
+      ],
+      [
+        "Chilobrachys guangxiensis",
+        7
+      ]
+    ],
+    "target_linked_row_count": 1,
+    "top_targets": [
+      [
+        "SCN9A",
+        1
+      ]
+    ],
+    "top_interaction_classes": [
+      [
+        "Integrin binding",
+        2
+      ],
+      [
+        "antagonist",
+        1
+      ]
+    ],
+    "top_proteins": [
+      [
+        "MCoTI-II",
+        18
+      ],
+      [
+        "Agouti-related protein",
+        14
+      ],
+      [
+        "oMCoTI-II",
+        11
+      ],
+      [
+        "EETI-II",
+        8
+      ],
+      [
+        "Ecballium elaterium trypsin inhibitor II",
+        7
+      ]
+    ],
+    "source_tables": [
+      [
+        "interactions",
+        310
+      ],
+      [
+        "domains",
+        310
+      ],
+      [
+        "proteins",
+        310
+      ],
+      [
+        "affinity_data",
+        310
+      ],
+      [
+        "sources",
+        74
+      ],
+      [
+        "target_species_variants",
+        1
+      ],
+      [
+        "targets_conceptual",
+        1
+      ]
+    ],
+    "representative_interactions": [
+      "INT-00003",
+      "INT-00004",
+      "INT-00006",
+      "INT-00007",
+      "INT-00008"
+    ]
+  },
+  {
+    "scaffold": "obody",
+    "entry_count": 268,
+    "protein_count": 268,
+    "engineered_yes_count": 8,
+    "engineered_no_count": 260,
+    "engineered_unknown_count": 0,
+    "organism_count": 4,
+    "top_organisms": [
+      [
+        "Pyrobaculum aerophilum",
+        6
+      ],
+      [
+        "Sulfolobus",
+        3
+      ],
+      [
+        "Sulfolobus acidocaldarius",
+        2
+      ],
+      [
+        "Gallus gallus",
+        1
+      ]
+    ],
+    "target_linked_row_count": 0,
+    "top_targets": [],
+    "top_interaction_classes": [],
+    "top_proteins": [
+      [
+        "Sac7d",
+        5
+      ],
+      [
+        "aspartyl tRNA synthetase",
+        2
+      ],
+      [
+        "OBody AM1L10",
+        1
+      ],
+      [
+        "OBody AM2EP06",
+        1
+      ],
+      [
+        "Lysozyme C",
+        1
+      ]
+    ],
+    "source_tables": [
+      [
+        "interactions",
+        268
+      ],
+      [
+        "domains",
+        268
+      ],
+      [
+        "proteins",
+        268
+      ],
+      [
+        "affinity_data",
+        268
+      ],
+      [
+        "sources",
+        5
+      ]
+    ],
+    "representative_interactions": [
+      "INT-00013",
+      "INT-00024",
+      "INT-00249",
+      "INT-00285",
+      "INT-00858"
+    ]
+  },
+  {
+    "scaffold": "kunitz",
+    "entry_count": 161,
+    "protein_count": 161,
+    "engineered_yes_count": 59,
+    "engineered_no_count": 102,
+    "engineered_unknown_count": 0,
+    "organism_count": 36,
+    "top_organisms": [
+      [
+        "Homo sapiens",
+        69
+      ],
+      [
+        "Bos taurus",
+        10
+      ],
+      [
+        "Cyriopagopus hainanus",
+        10
+      ],
+      [
+        "Cyriopagopus schmidti",
+        9
+      ],
+      [
+        "Radianthus crispa",
+        6
+      ]
+    ],
+    "target_linked_row_count": 0,
+    "top_targets": [],
+    "top_interaction_classes": [
+      [
+        "trypsin",
+        6
+      ],
+      [
+        "Protease inhibitor",
+        5
+      ],
+      [
+        "serine protease inhibitor",
+        3
+      ],
+      [
+        "Matriptase",
+        2
+      ],
+      [
+        "Trypsin",
+        1
+      ]
+    ],
+    "top_proteins": [
+      [
+        "LACI-K1",
+        10
+      ],
+      [
+        "Aprotinin",
+        6
+      ],
+      [
+        "TFPI-2",
+        5
+      ],
+      [
+        "ShPI-1",
+        4
+      ],
+      [
+        "tissue factor pathway inhibitor (TFPI) domain II",
+        4
+      ]
+    ],
+    "source_tables": [
+      [
+        "interactions",
+        161
+      ],
+      [
+        "domains",
+        161
+      ],
+      [
+        "proteins",
+        161
+      ],
+      [
+        "affinity_data",
+        161
+      ],
+      [
+        "sources",
+        6
+      ]
+    ],
+    "representative_interactions": [
+      "INT-00001",
+      "INT-00002",
+      "INT-00005",
+      "INT-00014",
+      "INT-00021"
+    ]
+  },
+  {
+    "scaffold": "centyrin",
+    "entry_count": 73,
+    "protein_count": 73,
+    "engineered_yes_count": 7,
+    "engineered_no_count": 66,
+    "engineered_unknown_count": 0,
+    "organism_count": 3,
+    "top_organisms": [
+      [
+        "synthetic construct",
+        3
+      ],
+      [
+        "Homo sapiens",
+        1
+      ],
+      [
+        "Myoviridae sp. ctgXL3",
+        1
+      ]
+    ],
+    "target_linked_row_count": 0,
+    "top_targets": [],
+    "top_interaction_classes": [],
+    "top_proteins": [
+      [
+        "Tencon",
+        6
+      ],
+      [
+        "Tenascin-C",
+        1
+      ],
+      [
+        "Centyrin",
+        1
+      ],
+      [
+        "Centyrin S26",
+        1
+      ],
+      [
+        "Centyrin S17",
+        1
+      ]
+    ],
+    "source_tables": [
+      [
+        "interactions",
+        73
+      ],
+      [
+        "domains",
+        73
+      ],
+      [
+        "proteins",
+        73
+      ],
+      [
+        "affinity_data",
+        73
+      ]
+    ],
+    "representative_interactions": [
+      "INT-00068",
+      "INT-00368",
+      "INT-00392",
+      "INT-00393",
+      "INT-00396"
+    ]
+  },
+  {
+    "scaffold": "affimer",
+    "entry_count": 69,
+    "protein_count": 69,
+    "engineered_yes_count": 5,
+    "engineered_no_count": 64,
+    "engineered_unknown_count": 0,
+    "organism_count": 4,
+    "top_organisms": [
+      [
+        "Homo sapiens",
+        10
+      ],
+      [
+        "synthetic construct",
+        5
+      ],
+      [
+        "Orthonairovirus haemorrhagiae",
+        1
+      ],
+      [
+        "Canine",
+        1
+      ]
+    ],
+    "target_linked_row_count": 1,
+    "top_targets": [
+      [
+        "ALB",
+        1
+      ]
+    ],
+    "top_interaction_classes": [
+      [
+        "Albumin binding",
+        1
+      ],
+      [
+        "protein-protein",
+        1
+      ]
+    ],
+    "top_proteins": [
+      [
+        "GTPase KRas",
+        2
+      ],
+      [
+        "Stefin A",
+        2
+      ],
+      [
+        "Human Stefin A",
+        2
+      ],
+      [
+        "stefin",
+        2
+      ],
+      [
+        "Low affinity immunoglobulin gamma Fc region receptor III-A",
+        2
+      ]
+    ],
+    "source_tables": [
+      [
+        "interactions",
+        69
+      ],
+      [
+        "domains",
+        69
+      ],
+      [
+        "proteins",
+        69
+      ],
+      [
+        "affinity_data",
+        69
+      ],
+      [
+        "target_species_variants",
+        1
+      ],
+      [
+        "targets_conceptual",
+        1
+      ]
+    ],
+    "representative_interactions": [
+      "INT-00019",
+      "INT-00240",
+      "INT-00241",
+      "INT-00273",
+      "INT-00387"
+    ]
+  },
+  {
+    "scaffold": "EVH1domain",
+    "entry_count": 68,
+    "protein_count": 68,
+    "engineered_yes_count": 0,
+    "engineered_no_count": 68,
+    "engineered_unknown_count": 0,
+    "organism_count": 29,
+    "top_organisms": [
+      [
+        "Homo sapiens",
+        13
+      ],
+      [
+        "Rattus norvegicus",
+        9
+      ],
+      [
+        "Mus musculus",
+        9
+      ],
+      [
+        "Drosophila melanogaster",
+        3
+      ],
+      [
+        "Dictyostelium discoideum",
+        3
+      ]
+    ],
+    "target_linked_row_count": 0,
+    "top_targets": [],
+    "top_interaction_classes": [],
+    "top_proteins": [
+      [
+        "Sprouty related EVH1 domain containing 1",
+        14
+      ],
+      [
+        "Sprouty-related, EVH1 domain-containing protein 2",
+        6
+      ],
+      [
+        "Ena/VASP-like protein",
+        5
+      ],
+      [
+        "Homer protein homolog 1",
+        4
+      ],
+      [
+        "Sprouty-related, EVH1 domain-containing protein 1",
+        4
+      ]
+    ],
+    "source_tables": [
+      [
+        "interactions",
+        68
+      ],
+      [
+        "domains",
+        68
+      ],
+      [
+        "proteins",
+        68
+      ],
+      [
+        "affinity_data",
+        68
+      ]
+    ],
+    "representative_interactions": [
+      "INT-00136",
+      "INT-00412",
+      "INT-00414",
+      "INT-00456",
+      "INT-00477"
+    ]
+  },
+  {
+    "scaffold": "betarolldomain",
+    "entry_count": 65,
+    "protein_count": 65,
+    "engineered_yes_count": 2,
+    "engineered_no_count": 63,
+    "engineered_unknown_count": 0,
+    "organism_count": 38,
+    "top_organisms": [
+      [
+        "Arabidopsis thaliana",
+        13
+      ],
+      [
+        "Azotobacter vinelandii",
+        4
+      ],
+      [
+        "Bordetella pertussis",
+        3
+      ],
+      [
+        "Dickeya dadantii (strain 3937)",
+        3
+      ],
+      [
+        "Mus musculus",
+        2
+      ]
+    ],
+    "target_linked_row_count": 0,
+    "top_targets": [],
+    "top_interaction_classes": [],
+    "top_proteins": [
+      [
+        "adenylate cyclase",
+        3
+      ],
+      [
+        "Pectinesterase 1",
+        2
+      ],
+      [
+        "Pectate lyase 1",
+        2
+      ],
+      [
+        "Endopolygalacturonase I",
+        2
+      ],
+      [
+        "Endopolygalacturonase II",
+        2
+      ]
+    ],
+    "source_tables": [
+      [
+        "interactions",
+        65
+      ],
+      [
+        "domains",
+        65
+      ],
+      [
+        "proteins",
+        65
+      ],
+      [
+        "affinity_data",
+        65
+      ],
+      [
+        "sources",
+        4
+      ]
+    ],
+    "representative_interactions": [
+      "INT-00235",
+      "INT-00236",
+      "INT-00237",
+      "INT-00238",
+      "INT-00398"
+    ]
+  },
+  {
+    "scaffold": "phdfingerdomain",
+    "entry_count": 53,
+    "protein_count": 53,
+    "engineered_yes_count": 0,
+    "engineered_no_count": 53,
+    "engineered_unknown_count": 0,
+    "organism_count": 13,
+    "top_organisms": [
+      [
+        "Homo sapiens",
+        14
+      ],
+      [
+        "Arabidopsis thaliana",
+        12
+      ],
+      [
+        "Mus musculus",
+        12
+      ],
+      [
+        "Oryza sativa subsp. japonica",
+        2
+      ],
+      [
+        "Danio rerio",
+        2
+      ]
+    ],
+    "target_linked_row_count": 0,
+    "top_targets": [],
+    "top_interaction_classes": [
+      [
+        "histone H3",
+        1
+      ],
+      [
+        "Binding",
+        1
+      ]
+    ],
+    "top_proteins": [
+      [
+        "PHD finger protein 11",
+        2
+      ],
+      [
+        "Histone lysine demethylase PHF8",
+        2
+      ],
+      [
+        "PHD finger protein 13",
+        2
+      ],
+      [
+        "Protein Jade-1",
+        2
+      ],
+      [
+        "Protein Jade-3",
+        2
+      ]
+    ],
+    "source_tables": [
+      [
+        "interactions",
+        53
+      ],
+      [
+        "domains",
+        53
+      ],
+      [
+        "proteins",
+        53
+      ],
+      [
+        "affinity_data",
+        53
+      ],
+      [
+        "sources",
+        5
+      ]
+    ],
+    "representative_interactions": [
+      "INT-00023",
+      "INT-00100",
+      "INT-00140",
+      "INT-00239",
+      "INT-00386"
+    ]
+  },
+  {
+    "scaffold": "avimer",
+    "entry_count": 42,
+    "protein_count": 42,
+    "engineered_yes_count": 4,
+    "engineered_no_count": 38,
+    "engineered_unknown_count": 0,
+    "organism_count": 4,
+    "top_organisms": [
+      [
+        "synthetic construct",
+        1
+      ],
+      [
+        "Mus musculus",
+        1
+      ],
+      [
+        "Homo sapiens",
+        1
+      ],
+      [
+        "Bacillus thuringiensis serovar konkukian",
+        1
+      ]
+    ],
+    "target_linked_row_count": 0,
+    "top_targets": [],
+    "top_interaction_classes": [],
+    "top_proteins": [
+      [
+        "7",
+        2
+      ],
+      [
+        "2",
+        2
+      ],
+      [
+        "10",
+        2
+      ],
+      [
+        "6",
+        2
+      ],
+      [
+        "MINI PROTEIN A DOMAIN, Z38",
+        1
+      ]
+    ],
+    "source_tables": [
+      [
+        "interactions",
+        42
+      ],
+      [
+        "domains",
+        42
+      ],
+      [
+        "proteins",
+        42
+      ],
+      [
+        "affinity_data",
+        42
+      ]
+    ],
+    "representative_interactions": [
+      "INT-00020",
+      "INT-00030",
+      "INT-00031",
+      "INT-00032",
+      "INT-00033"
+    ]
+  },
+  {
+    "scaffold": "Ibody",
+    "entry_count": 27,
+    "protein_count": 27,
+    "engineered_yes_count": 5,
+    "engineered_no_count": 22,
+    "engineered_unknown_count": 0,
+    "organism_count": 3,
+    "top_organisms": [
+      [
+        "Homo sapiens",
+        5
+      ],
+      [
+        "Escherichia coli (strain K12)",
+        2
+      ],
+      [
+        "Plasmodium vivax (strain Salvador I)",
+        1
+      ]
+    ],
+    "target_linked_row_count": 0,
+    "top_targets": [],
+    "top_interaction_classes": [
+      [
+        "Protein-protein",
+        2
+      ],
+      [
+        "GPCR binding",
+        1
+      ]
+    ],
+    "top_proteins": [
+      [
+        "human neural cell adhesion molecule",
+        4
+      ],
+      [
+        "NCAM Ig domain 1",
+        1
+      ],
+      [
+        "30S ribosomal protein S5",
+        1
+      ],
+      [
+        "30S ribosomal protein S11",
+        1
+      ],
+      [
+        "Apical merozoite antigen 1",
+        1
+      ]
+    ],
+    "source_tables": [
+      [
+        "interactions",
+        27
+      ],
+      [
+        "domains",
+        27
+      ],
+      [
+        "proteins",
+        27
+      ],
+      [
+        "affinity_data",
+        27
+      ],
+      [
+        "sources",
+        5
+      ]
+    ],
+    "representative_interactions": [
+      "INT-00380",
+      "INT-00381",
+      "INT-00382",
+      "INT-00383",
+      "INT-00384"
+    ]
+  }
+]

@@ -1,0 +1,311 @@
+[
+  {
+    "source_category": "structure_screen",
+    "source_description": "Protein language model similarity search outputs for protein rows.",
+    "upstream_pipeline": "normalized.schema_tables.plmsearch_results",
+    "quality_notes": "High-volume computational retrieval table frequently used in provenance inspection.",
+    "owner_table": "plmsearch_results",
+    "source": "plmsearch_results.csv",
+    "chunk_count": 38079
+  },
+  {
+    "source_category": "structure_screen",
+    "source_description": "Loop annotation outputs keyed by protein row identifiers.",
+    "upstream_pipeline": "normalized.schema_tables.loop_annotations",
+    "quality_notes": "Computational loop-annotation table used in provenance-focused reviews.",
+    "owner_table": "loop_annotations",
+    "source": "loop_annotations.csv",
+    "chunk_count": 3383
+  },
+  {
+    "source_category": "structure_screen",
+    "source_description": "Loop flexibility estimates for protein rows.",
+    "upstream_pipeline": "normalized.schema_tables.loop_flexibility_results",
+    "quality_notes": "Computational flexibility outputs intended for structural interpretation, not direct experimental claims.",
+    "owner_table": "loop_flexibility_results",
+    "source": "loop_flexibility_results.csv",
+    "chunk_count": 3383
+  },
+  {
+    "source_category": "interaction_measurement",
+    "source_description": "Affinity assay rows attached to interaction identifiers.",
+    "upstream_pipeline": "normalized.schema_tables.affinity_data",
+    "quality_notes": "Measured binding values with method and unit context.",
+    "owner_table": "affinity_data",
+    "source": "affinity_data.csv",
+    "chunk_count": 1996
+  },
+  {
+    "source_category": "immunogenicity",
+    "source_description": "B-cell epitope predictions and supporting sequence-level annotations.",
+    "upstream_pipeline": "normalized.schema_tables.bcell_epitope_results",
+    "quality_notes": "Sequence-derived computational result table; interpret alongside model assumptions.",
+    "owner_table": "bcell_epitope_results",
+    "source": "bcell_epitope_results.csv",
+    "chunk_count": 1996
+  },
+  {
+    "source_category": "developability",
+    "source_description": "CMC-oriented domain developability descriptors.",
+    "upstream_pipeline": "normalized.schema_tables.cmc_data",
+    "quality_notes": "Formal developability table linked through domain identifiers.",
+    "owner_table": "cmc_data",
+    "source": "cmc_data.csv",
+    "chunk_count": 1996
+  },
+  {
+    "source_category": "developability",
+    "source_description": "Integrated developability summary outputs for FBBP proteins.",
+    "upstream_pipeline": "normalized.schema_tables.developability_results",
+    "quality_notes": "Aggregate computational assessment; review together with source component tables.",
+    "owner_table": "developability_results",
+    "source": "developability_results.csv",
+    "chunk_count": 1996
+  },
+  {
+    "source_category": "core_entity",
+    "source_description": "Canonical domain registry connecting proteins, sources, and structures.",
+    "upstream_pipeline": "normalized.schema_tables.domains",
+    "quality_notes": "Core join table for domain-centric retrieval.",
+    "owner_table": "domains",
+    "source": "domains.csv",
+    "chunk_count": 1996
+  },
+  {
+    "source_category": "developability",
+    "source_description": "E. coli expression outputs for FBBP proteins.",
+    "upstream_pipeline": "normalized.schema_tables.ecoli_expression_results",
+    "quality_notes": "Experimental expression readout; coverage is narrower than the full protein table.",
+    "owner_table": "ecoli_expression_results",
+    "source": "ecoli_expression_results.csv",
+    "chunk_count": 1996
+  },
+  {
+    "source_category": "structure_screen",
+    "source_description": "Foldseek-based structural similarity search outputs.",
+    "upstream_pipeline": "normalized.schema_tables.foldseek_results",
+    "quality_notes": "Structure-search results; interpret together with rank and template context.",
+    "owner_table": "foldseek_results",
+    "source": "foldseek_results.csv",
+    "chunk_count": 1996
+  },
+  {
+    "source_category": "immunogenicity",
+    "source_description": "Integrated immunogenicity summary rows for proteins.",
+    "upstream_pipeline": "normalized.schema_tables.immunogenicity_summary",
+    "quality_notes": "Summary layer that should be checked against constituent immunogenicity tables for exact evidence.",
+    "owner_table": "immunogenicity_summary",
+    "source": "immunogenicity_summary.csv",
+    "chunk_count": 1996
+  },
+  {
+    "source_category": "core_entity",
+    "source_description": "Canonical interaction table linking domains, targets, and sources.",
+    "upstream_pipeline": "normalized.schema_tables.interactions",
+    "quality_notes": "Primary interaction anchor table for downstream affinity and source joins.",
+    "owner_table": "interactions",
+    "source": "interactions.csv",
+    "chunk_count": 1996
+  },
+  {
+    "source_category": "quality_control",
+    "source_description": "Manual audit trace rows for curated FBBP entries.",
+    "upstream_pipeline": "normalized.schema_tables.manual_review_audit",
+    "quality_notes": "Audit trail table supporting provenance and QC review.",
+    "owner_table": "manual_review_audit",
+    "source": "manual_review_audit.csv",
+    "chunk_count": 1996
+  },
+  {
+    "source_category": "immunogenicity",
+    "source_description": "MHC-I presentation predictions for protein rows.",
+    "upstream_pipeline": "normalized.schema_tables.mhci_results",
+    "quality_notes": "Model-derived immunogenicity signal; compare with companion tables for consistency.",
+    "owner_table": "mhci_results",
+    "source": "mhci_results.csv",
+    "chunk_count": 1996
+  },
+  {
+    "source_category": "immunogenicity",
+    "source_description": "MHC-II presentation predictions for protein rows.",
+    "upstream_pipeline": "normalized.schema_tables.mhcii_results",
+    "quality_notes": "Model-derived immunogenicity signal; compare with companion tables for consistency.",
+    "owner_table": "mhcii_results",
+    "source": "mhcii_results.csv",
+    "chunk_count": 1996
+  },
+  {
+    "source_category": "developability",
+    "source_description": "Oral-delivery-oriented developability outputs.",
+    "upstream_pipeline": "normalized.schema_tables.oral_results",
+    "quality_notes": "Derived developability signal that should be interpreted together with assay and CMC tables.",
+    "owner_table": "oral_results",
+    "source": "oral_results.csv",
+    "chunk_count": 1996
+  },
+  {
+    "source_category": "structure_screen",
+    "source_description": "Protein-level flexibility summaries derived from structural analyses.",
+    "upstream_pipeline": "normalized.schema_tables.protein_flexibility_summary",
+    "quality_notes": "Summary table for flexibility interpretation; use constituent evidence for exact details.",
+    "owner_table": "protein_flexibility_summary",
+    "source": "protein_flexibility_summary.csv",
+    "chunk_count": 1996
+  },
+  {
+    "source_category": "core_entity",
+    "source_description": "Canonical protein entity table for the FBBP corpus.",
+    "upstream_pipeline": "normalized.schema_tables.proteins",
+    "quality_notes": "Primary protein registry table used by many joins.",
+    "owner_table": "proteins",
+    "source": "proteins.csv",
+    "chunk_count": 1996
+  },
+  {
+    "source_category": "structure_screen",
+    "source_description": "ProtTrek-style retrieval outputs for protein rows.",
+    "upstream_pipeline": "normalized.schema_tables.protrek_results",
+    "quality_notes": "Computational retrieval result table; interpret with model and ranking context.",
+    "owner_table": "protrek_results",
+    "source": "protrek_results.csv",
+    "chunk_count": 1996
+  },
+  {
+    "source_category": "structure_screen",
+    "source_description": "Structural reference and quality rows linked to domains.",
+    "upstream_pipeline": "normalized.schema_tables.structural_info",
+    "quality_notes": "Structure-centric evidence table for exact structural identifiers and metrics.",
+    "owner_table": "structural_info",
+    "source": "structural_info.csv",
+    "chunk_count": 1996
+  },
+  {
+    "source_category": "structure_screen",
+    "source_description": "TED retrieval outputs for protein rows.",
+    "upstream_pipeline": "normalized.schema_tables.ted_results",
+    "quality_notes": "Computational retrieval result table with model-dependent ranking.",
+    "owner_table": "ted_results",
+    "source": "ted_results.csv",
+    "chunk_count": 1996
+  },
+  {
+    "source_category": "quality_control",
+    "source_description": "Trusted-source QC summary for protein rows.",
+    "upstream_pipeline": "normalized.schema_tables.trusted_source_qc",
+    "quality_notes": "Quality-control table meant to support formal acceptance and provenance screening.",
+    "owner_table": "trusted_source_qc",
+    "source": "trusted_source_qc.csv",
+    "chunk_count": 1996
+  },
+  {
+    "source_category": "core_entity",
+    "source_description": "Alternative identifier mapping table for proteins.",
+    "upstream_pipeline": "normalized.schema_tables.protein_identifiers",
+    "quality_notes": "Useful for alias resolution and entity normalization.",
+    "owner_table": "protein_identifiers",
+    "source": "protein_identifiers.csv",
+    "chunk_count": 1270
+  },
+  {
+    "source_category": "source_provenance",
+    "source_description": "Canonical publication and citation source registry.",
+    "upstream_pipeline": "normalized.schema_tables.sources",
+    "quality_notes": "Primary provenance table for title, identifier, and publication date.",
+    "owner_table": "sources",
+    "source": "sources.csv",
+    "chunk_count": 1052
+  },
+  {
+    "source_category": "annotation",
+    "source_description": "Functional annotations linked to protein identifiers.",
+    "upstream_pipeline": "normalized.schema_tables.functional_annotations",
+    "quality_notes": "Curated or normalized function notes with partial coverage.",
+    "owner_table": "functional_annotations",
+    "source": "functional_annotations.csv",
+    "chunk_count": 922
+  },
+  {
+    "source_category": "target_context",
+    "source_description": "Species and variant-specific target table.",
+    "upstream_pipeline": "normalized.schema_tables.target_species_variants",
+    "quality_notes": "Target disambiguation table for interaction-level reasoning.",
+    "owner_table": "target_species_variants",
+    "source": "target_species_variants.csv",
+    "chunk_count": 216
+  },
+  {
+    "source_category": "target_context",
+    "source_description": "Conceptual target registry for shared target identities.",
+    "upstream_pipeline": "normalized.schema_tables.targets_conceptual",
+    "quality_notes": "Use with target species variants for precise target interpretation.",
+    "owner_table": "targets_conceptual",
+    "source": "targets_conceptual.csv",
+    "chunk_count": 196
+  },
+  {
+    "source_category": "structure_screen",
+    "source_description": "Refinement history rows for structure-related protein entries.",
+    "upstream_pipeline": "normalized.schema_tables.structure_refinement_history",
+    "quality_notes": "Operational structural refinement trail rather than direct biological effect evidence.",
+    "owner_table": "structure_refinement_history",
+    "source": "structure_refinement_history.csv",
+    "chunk_count": 97
+  },
+  {
+    "source_category": "developability",
+    "source_description": "Digestive stability assay outcomes linked to domains.",
+    "upstream_pipeline": "normalized.schema_tables.digestive_assays",
+    "quality_notes": "Experimental assay rows with limited coverage relative to the full corpus.",
+    "owner_table": "digestive_assays",
+    "source": "digestive_assays.csv",
+    "chunk_count": 24
+  },
+  {
+    "source_category": "quality_control",
+    "source_description": "Run-level metadata for generated result tables.",
+    "upstream_pipeline": "normalized.schema_tables.result_metadata",
+    "quality_notes": "Operational metadata table supporting build reproducibility.",
+    "owner_table": "result_metadata",
+    "source": "result_metadata.csv",
+    "chunk_count": 13
+  },
+  {
+    "source_category": "quality_control",
+    "source_description": "Pipeline version manifest for the formal FBBP build.",
+    "upstream_pipeline": "normalized.schema_tables.pipeline_versions",
+    "quality_notes": "Build metadata table for traceability rather than biological evidence.",
+    "owner_table": "pipeline_versions",
+    "source": "pipeline_versions.csv",
+    "chunk_count": 5
+  },
+  {
+    "source_category": "aggregate_jsonl",
+    "source_description": "Interaction-level synthesized cards for the v2 FBBP formal build.",
+    "upstream_pipeline": "llm-rag-knowledge-base/data/schema_tables_rag_ready/interaction_cards_v2.jsonl",
+    "runtime_snapshot": "formal_snapshots/fbbp_private_v2026_04/interaction_cards_v2.jsonl",
+    "quality_notes": "Use for high-level interaction summaries; underlying evidence should still be traced to table rows when possible.",
+    "owner_table": "interaction_cards_v2",
+    "source": "interaction_cards_v2.jsonl",
+    "chunk_count": 0
+  },
+  {
+    "source_category": "aggregate_jsonl",
+    "source_description": "Protein-level synthesized cards for the v2 FBBP formal build.",
+    "upstream_pipeline": "llm-rag-knowledge-base/data/schema_tables_rag_ready/protein_cards_v2.jsonl",
+    "runtime_snapshot": "formal_snapshots/fbbp_private_v2026_04/protein_cards_v2.jsonl",
+    "quality_notes": "Use for high-level protein summaries; underlying evidence should still be traced to table rows when possible.",
+    "owner_table": "protein_cards_v2",
+    "source": "protein_cards_v2.jsonl",
+    "chunk_count": 0
+  },
+  {
+    "source_category": "aggregate_jsonl",
+    "source_description": "Full-table FBBP raw record export used to preserve per-table provenance during retrieval.",
+    "upstream_pipeline": "llm-rag-knowledge-base/data/schema_tables_rag_ready/raw_records.jsonl",
+    "runtime_snapshot": "formal_snapshots/fbbp_private_v2026_04/raw_records.jsonl",
+    "quality_notes": "Canonical formal export covering all normalized FBBP tables.",
+    "owner_table": "multi_table_export",
+    "source": "raw_records.jsonl",
+    "chunk_count": 0
+  }
+]

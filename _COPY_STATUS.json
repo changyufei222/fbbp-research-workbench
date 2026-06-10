@@ -1,0 +1,77 @@
+[
+  {
+    "status": "copied",
+    "source": "<local_path_removed>",
+    "relative_path": "README.md"
+  },
+  {
+    "status": "copied",
+    "source": "<local_path_removed>",
+    "relative_path": "FINAL_RESULT_SUMMARY.md"
+  },
+  {
+    "status": "copied",
+    "source": "<local_path_removed>",
+    "relative_path": "UPSTREAM.md"
+  },
+  {
+    "status": "copied",
+    "source": "<local_path_removed>",
+    "relative_path": "docker-compose.yml"
+  },
+  {
+    "status": "copied",
+    "source": "<local_path_removed>",
+    "relative_path": "Dockerfile.dashboard"
+  },
+  {
+    "status": "copied",
+    "source": "<local_path_removed>",
+    "relative_path": "configs"
+  },
+  {
+    "status": "copied",
+    "source": "<local_path_removed>",
+    "relative_path": "docs"
+  },
+  {
+    "status": "copied",
+    "source": "<local_path_removed>",
+    "relative_path": "examples"
+  },
+  {
+    "status": "copied",
+    "source": "<local_path_removed>",
+    "relative_path": "scripts"
+  },
+  {
+    "status": "copied",
+    "source": "<local_path_removed>",
+    "relative_path": "skills"
+  },
+  {
+    "status": "copied",
+    "source": "<local_path_removed>",
+    "relative_path": "templates"
+  },
+  {
+    "status": "copied",
+    "source": "<local_path_removed>",
+    "relative_path": "tests"
+  },
+  {
+    "status": "copied",
+    "source": "<local_path_removed>",
+    "relative_path": "final_results\\fbbp_formal_atlas_v2026_04"
+  },
+  {
+    "status": "copied",
+    "source": "<local_path_removed>",
+    "relative_path": "artifacts\\20260418_155831_fbbp_formal_console_v2\\screenshots"
+  },
+  {
+    "status": "copied",
+    "source": "<local_path_removed>",
+    "relative_path": "artifacts\\submission_assets"
+  }
+]

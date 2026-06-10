@@ -1,0 +1,30 @@
+case_id: fbbp_source_provenance_review_01
+title: FBBP source provenance review
+task_type: provenance_review
+runtime_profile: local_formal
+dataset_version: fbbp_private_v2026_04
+mcp_contract_version: "1.1"
+prompt_file: examples/prompts/fbbp_source_provenance_review_01.txt
+thread_id_hint: fbbp_source_provenance_review_01
+inputs:
+  topic: source provenance coverage
+  focus_question: Which primary sources dominate the current FBBP runtime, what record types do they cover, and what provenance limits should users know?
+  constraints:
+    - use private knowledge first
+    - preserve uncertainty where coverage is incomplete
+    - stop once the primary sources and caveats are evidenced
+acceptance_profile: formal_case_default
+runner:
+  recursion_limit: 12
+  max_seconds: 300
+  preflight_source_provenance:
+    list_limit: 20
+    summary_count: 3
+    summary_limit: 1000
+    min_sources: 3
+  stop_on_tool_answer:
+    tool_name: search_knowledge
+    min_results: 2
+    require_answer: true
+    require_evidence: true
+    allow_low_confidence_answer_with_evidence: true

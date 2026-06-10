@@ -1,0 +1,27 @@
+version: 1
+thresholds:
+  pass: 0.7
+  review: 0.4
+route_defaults:
+  dry_run:
+    score: 0.1
+    reason: dry run only
+  private_rag:
+    success_with_answer: 0.8
+    success_without_answer: 0.45
+  report_generation:
+    success_with_title: 0.8
+    success_without_title: 0.5
+  public_lookup:
+    success_all_tools: 0.8
+    success_partial_tools: 0.55
+    success_without_tools: 0.25
+  formal_case:
+    succeeded: 0.8
+    partial: 0.6
+  batch_eval:
+    succeeded: 0.8
+    partial: 0.6
+  fallback_general:
+    success_with_answer: 0.7
+    success_without_answer: 0.35

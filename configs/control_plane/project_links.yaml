@@ -1,0 +1,57 @@
+version: 1
+workspace_root: ..
+projects:
+  fbbp-research-workbench:
+    role: control_plane
+    path: .
+    owns:
+      - unified_entry
+      - intent_router
+      - run_record
+      - observability
+      - a2a_gateway
+  fbbp-mcp-rag-server:
+    role: tool_plane
+    path: ../fbbp-mcp-rag-server
+    python_src: ../fbbp-mcp-rag-server/src
+    owns:
+      - mcp_tools
+      - public_lookup
+      - provenance
+      - diagnostics
+    public_lookup_tools:
+      pubmed: search_pubmed
+      uniprot: get_uniprot_entry
+      pdb: get_pdb_entry
+  llm-rag-knowledge-base:
+    role: private_rag_backend
+    path: ../llm-rag-knowledge-base
+    owns:
+      - vector_retrieval
+      - private_knowledge
+      - filters
+      - quality_checks
+  llm-eval-benchmark:
+    role: eval_harness
+    path: ../llm-eval-benchmark
+    owns:
+      - model_sweep
+      - benchmark_reports
+      - cost_latency_eval
+      - leaderboard
+  minimind-fbtp-lab:
+    role: query_compiler_lab
+    path: ../minimind-fbtp-lab
+    owns:
+      - query_dsl
+      - query_compiler
+      - validator
+      - executor_adapter
+  upstream-deerflow:
+    role: upstream_agent_runtime
+    path: ../upstream-deerflow
+    owns:
+      - agent_runtime
+      - deerflow_planning
+      - mcp_runtime
+      - upstream_memory_plumbing

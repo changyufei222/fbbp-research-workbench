@@ -1,0 +1,57 @@
+version: 1
+capabilities:
+  candidate_query_compile:
+    applies_to_routes:
+      - private_rag
+      - fallback_general
+    trigger_keywords:
+      - 筛选
+      - 过滤
+      - filter
+      - filters
+      - sort
+      - 排序
+      - top
+      - top-k
+      - topk
+      - limit
+  public_validation:
+    applies_to_routes:
+      - private_rag
+      - public_lookup
+    trigger_keywords:
+      - validate
+      - validation
+      - 校验
+      - 核验
+      - pubmed
+      - uniprot
+      - pdb
+  memory_resume:
+    applies_to_routes:
+      - private_rag
+      - fallback_general
+      - report_generation
+    trigger_keywords:
+      - 恢复
+      - 继续
+      - resume
+      - continue
+  report_polish:
+    applies_to_routes:
+      - report_generation
+      - fallback_general
+    trigger_keywords:
+      - 润色
+      - polish
+      - rewrite
+      - 改写
+      - 摘要
+  formal_evidence_pack:
+    applies_to_routes:
+      - formal_case
+      - batch_eval
+      - report_generation
+    always_on_routes:
+      - formal_case
+      - batch_eval

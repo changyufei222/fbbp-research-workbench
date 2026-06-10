@@ -1,0 +1,30 @@
+version: 1
+agent_name: fbbp-assistant
+profile_memory:
+  enabled: true
+  auto_write: true
+  promote_on_keywords:
+    - 记住
+    - remember
+    - long-term
+session_memory:
+  enabled: true
+  lookback_runs: 5
+  summary_char_limit: 400
+semantic_memory:
+  enabled: true
+  store_path: runs/control_plane/memory/semantic_memory.json
+  max_items: 500
+  max_conflicts_per_key: 5
+  similarity_threshold: 0.35
+  conflict_threshold: 0.22
+  promote_statuses:
+    - succeeded
+    - partial
+  promote_routes:
+    - private_rag
+    - public_lookup
+    - formal_case
+    - batch_eval
+    - report_generation
+    - fallback_general

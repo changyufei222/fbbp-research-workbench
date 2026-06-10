@@ -1,0 +1,31 @@
+case_id: fbbp_knottin_landscape_01
+title: FBBP knottin scaffold landscape review
+task_type: landscape_review
+runtime_profile: local_formal
+dataset_version: fbbp_private_v2026_04
+mcp_contract_version: "1.1"
+prompt_file: examples/prompts/fbbp_knottin_landscape_01.txt
+thread_id_hint: fbbp_knottin_landscape_01
+inputs:
+  topic: knottin scaffold
+  focus_question: Which structural features, target classes, and evidence sources best characterize knottin-related entries in the current FBBP database?
+  constraints:
+    - use private knowledge first
+    - include provenance for every claim
+    - stop once retrieved evidence is already sufficient
+acceptance_profile: formal_case_default
+runner:
+  recursion_limit: 12
+  max_seconds: 300
+  preflight_search_knowledge:
+    query: knottin scaffold structural features target classes
+    top_k: 5
+    include_answer: true
+    include_evidence: true
+    answer_mode: extractive
+  stop_on_tool_answer:
+    tool_name: search_knowledge
+    min_results: 3
+    require_answer: true
+    require_evidence: true
+    allow_low_confidence_answer_with_evidence: true

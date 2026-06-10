@@ -1,0 +1,6 @@
+version: 1
+fields:
+  emit_judge_json: true
+  emit_observability_json: true
+  include_memory_fields: true
+  include_child_run_fields: true

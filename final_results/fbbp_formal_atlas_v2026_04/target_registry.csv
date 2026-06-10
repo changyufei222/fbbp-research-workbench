@@ -1,0 +1,42 @@
+scaffold,interaction_id,protein_id,protein_name,organism,domain_id,domain_name,target_label,target_variant_id,target_concept_id,target_gene_name_species,target_species_name,target_concept_gene_name,target_concept_protein_name,source,chunk_id
+adnectin,INT-00308,PROT-01060,Tencon,Homo sapiens,TBP-01060,P114AR5P74-A5,c-Met,TVAR-00062,TGT-00051,c-Met,Homo sapiens,c-Met,P08581,interaction_cards_v2.jsonl,interaction-v2:INT-00308
+adnectin,INT-00362,PROT-01117,Tencon,Homo sapiens,TBP-01117,P114AR7P94-A3,c-Met,TVAR-00062,TGT-00051,c-Met,Homo sapiens,c-Met,P08581,interaction_cards_v2.jsonl,interaction-v2:INT-00362
+adnectin,INT-00311,PROT-01063,Tencon,,TBP-01063,CD8S369,CD8A,TVAR-00064,TGT-00053,CD8A,Homo sapiens,CD8A,P01732,interaction_cards_v2.jsonl,interaction-v2:INT-00311
+adnectin,INT-00312,PROT-01064,Tencon27,,TBP-01064,P283AR9P1362_D6,CD8A,TVAR-00064,TGT-00053,CD8A,Homo sapiens,CD8A,P01732,interaction_cards_v2.jsonl,interaction-v2:INT-00312
+adnectin,INT-00313,PROT-01065,Tencon27,,TBP-01065,CD8S369,CD8A,TVAR-00064,TGT-00053,CD8A,Homo sapiens,CD8A,P01732,interaction_cards_v2.jsonl,interaction-v2:INT-00313
+adnectin,INT-00327,PROT-01079,Tencon,,TBP-01079,CD8S367,CD8A,TVAR-00064,TGT-00053,CD8A,Homo sapiens,CD8A,P01732,interaction_cards_v2.jsonl,interaction-v2:INT-00327
+adnectin,INT-00328,PROT-01080,Tencon27,,TBP-01080,CD8S367,CD8A,TVAR-00064,TGT-00053,CD8A,Homo sapiens,CD8A,P01732,interaction_cards_v2.jsonl,interaction-v2:INT-00328
+adnectin,INT-00329,PROT-01081,Tencon27,,TBP-01081,P282DR9P1359_F7,CD8A,TVAR-00064,TGT-00053,CD8A,Homo sapiens,CD8A,P01732,interaction_cards_v2.jsonl,interaction-v2:INT-00329
+adnectin,INT-00332,PROT-01085,Tencon27,,TBP-01085,CD8S370,CD8A,TVAR-00064,TGT-00053,CD8A,Homo sapiens,CD8A,P01732,interaction_cards_v2.jsonl,interaction-v2:INT-00332
+adnectin,INT-00333,PROT-01086,Tencon27,,TBP-01086,P282DR9P1359_G7,CD8A,TVAR-00064,TGT-00053,CD8A,Homo sapiens,CD8A,P01732,interaction_cards_v2.jsonl,interaction-v2:INT-00333
+adnectin,INT-00341,PROT-01096,Tencon,,TBP-01096,CD8S365,CD8A,TVAR-00064,TGT-00053,CD8A,Homo sapiens,CD8A,P01732,interaction_cards_v2.jsonl,interaction-v2:INT-00341
+adnectin,INT-00342,PROT-01097,Tencon27,,TBP-01097,P282ER9P1360_C8,CD8A,TVAR-00064,TGT-00053,CD8A,Homo sapiens,CD8A,P01732,interaction_cards_v2.jsonl,interaction-v2:INT-00342
+adnectin,INT-00352,PROT-01107,Tencon,,TBP-01107,CD8S368,CD8A,TVAR-00064,TGT-00053,CD8A,Homo sapiens,CD8A,P01732,interaction_cards_v2.jsonl,interaction-v2:INT-00352
+adnectin,INT-00353,PROT-01108,Tencon27,,TBP-01108,P282DR9P1359_F5,CD8A,TVAR-00064,TGT-00053,CD8A,Homo sapiens,CD8A,P01732,interaction_cards_v2.jsonl,interaction-v2:INT-00353
+adnectin,INT-00354,PROT-01109,Tencon27,,TBP-01109,CD8S368,CD8A,TVAR-00064,TGT-00053,CD8A,Homo sapiens,CD8A,P01732,interaction_cards_v2.jsonl,interaction-v2:INT-00354
+adnectin,INT-00365,PROT-01120,Tencon27,,TBP-01120,P282DR9P1359_C5,CD8A,TVAR-00064,TGT-00053,CD8A,Homo sapiens,CD8A,P01732,interaction_cards_v2.jsonl,interaction-v2:INT-00365
+adnectin,INT-00366,PROT-01121,Tencon27,,TBP-01121,CD8S366,CD8A,TVAR-00064,TGT-00053,CD8A,Homo sapiens,CD8A,P01732,interaction_cards_v2.jsonl,interaction-v2:INT-00366
+adnectin,INT-00379,PROT-01135,Tencon,,TBP-01135,CD8S366,CD8A,TVAR-00064,TGT-00053,CD8A,Homo sapiens,CD8A,P01732,interaction_cards_v2.jsonl,interaction-v2:INT-00379
+adnectin,INT-00293,PROT-01045,Tencon,Homo sapiens,TBP-01045,P54AR4-83v2,EGFR,TVAR-00059,TGT-00048,EGFR,Homo sapiens,EGFR,P00533-1,interaction_cards_v2.jsonl,interaction-v2:INT-00293
+adnectin,INT-00296,PROT-01048,Tencon,Artificial,TBP-01048,P54CR4-31,EGFR,TVAR-00060,TGT-00049,EGFR,Homo sapiens,EGFR,P00533,interaction_cards_v2.jsonl,interaction-v2:INT-00296
+adnectin,INT-00297,PROT-01049,Tencon,Homo sapiens,TBP-01049,P54AR4-73,EGFR,TVAR-00060,TGT-00049,EGFR,Homo sapiens,EGFR,P00533,interaction_cards_v2.jsonl,interaction-v2:INT-00297
+adnectin,INT-00298,PROT-01050,Tencon,Artificial,TBP-01050,P54AR4-17,EGFR,TVAR-00060,TGT-00049,EGFR,Homo sapiens,EGFR,P00533,interaction_cards_v2.jsonl,interaction-v2:INT-00298
+adnectin,INT-00299,PROT-01051,Tencon,Homo sapiens,TBP-01051,P53A1R5-17,EGFR,TVAR-00060,TGT-00049,EGFR,Homo sapiens,EGFR,P00533,interaction_cards_v2.jsonl,interaction-v2:INT-00299
+adnectin,INT-00300,PROT-01052,Tencon,Artificial,TBP-01052,P54AR4-48,EGFR,TVAR-00060,TGT-00049,EGFR,Homo sapiens,EGFR,P00533,interaction_cards_v2.jsonl,interaction-v2:INT-00300
+adnectin,INT-00301,PROT-01053,Tencon,Homo sapiens,TBP-01053,P54AR4-83,EGFR,TVAR-00060,TGT-00049,EGFR,Homo sapiens,EGFR,P00533,interaction_cards_v2.jsonl,interaction-v2:INT-00301
+adnectin,INT-00302,PROT-01054,Tencon,Artificial,TBP-01054,P54AR4-47,EGFR,TVAR-00060,TGT-00049,EGFR,Homo sapiens,EGFR,P00533,interaction_cards_v2.jsonl,interaction-v2:INT-00302
+adnectin,INT-00303,PROT-01055,Tencon,Homo sapiens,TBP-01055,P54AR4-83v2,EGFR,TVAR-00060,TGT-00049,EGFR,Homo sapiens,EGFR,P00533,interaction_cards_v2.jsonl,interaction-v2:INT-00303
+adnectin,INT-00305,PROT-01057,Tencon,Artificial,TBP-01057,P54AR4-73,EGFR,TVAR-00060,TGT-00049,EGFR,Homo sapiens,EGFR,P00533,interaction_cards_v2.jsonl,interaction-v2:INT-00305
+adnectin,INT-00372,PROT-01128,Tencon,Homo sapiens,TBP-01128,P53A1R5-17,EGFR,TVAR-00059,TGT-00048,EGFR,Homo sapiens,EGFR,P00533-1,interaction_cards_v2.jsonl,interaction-v2:INT-00372
+adnectin,INT-00968,PROT-02506,10Fn3,Homo sapiens,TBP-02506,Mb_ICAM2_S32,ICAM-2,TVAR-00113,TGT-00097,ICAM-2,Homo sapiens,ICAM-2,P13598,interaction_cards_v2.jsonl,interaction-v2:INT-00968
+adnectin,INT-00969,PROT-02507,10Fn3,Homo sapiens,TBP-02507,Mb_ICAM2_S40,ICAM-2,TVAR-00113,TGT-00097,ICAM-2,Homo sapiens,ICAM-2,P13598,interaction_cards_v2.jsonl,interaction-v2:INT-00969
+adnectin,INT-00970,PROT-02508,10Fn3,Homo sapiens,TBP-02508,Mb_ICAM2_S36,ICAM-2,TVAR-00113,TGT-00097,ICAM-2,Homo sapiens,ICAM-2,P13598,interaction_cards_v2.jsonl,interaction-v2:INT-00970
+adnectin,INT-00971,PROT-02509,10Fn3,Homo sapiens,TBP-02509,Mb_ICAM2_S38,ICAM-2,TVAR-00113,TGT-00097,ICAM-2,Homo sapiens,ICAM-2,P13598,interaction_cards_v2.jsonl,interaction-v2:INT-00971
+adnectin,INT-00961,PROT-02449,WT-FN3,,TBP-02449,1C4,MAP2K5,TVAR-00110,TGT-00094,MAP2K5,Homo sapiens,MAP2K5,Q13163,interaction_cards_v2.jsonl,interaction-v2:INT-00961
+adnectin,INT-00314,PROT-01066,Fibronectin type III domain,Homo sapiens,TBP-01066,ISOP193AR9P1A11,TNFRSF9,TVAR-00065,TGT-00054,TNFRSF9,Homo sapiens,TNFRSF9,Q07011,interaction_cards_v2.jsonl,interaction-v2:INT-00314
+adnectin,INT-00326,PROT-01078,Fibronectin type III domain,Homo sapiens,TBP-01078,ISOP193AR9P1B4,TNFRSF9,TVAR-00065,TGT-00054,TNFRSF9,Homo sapiens,TNFRSF9,Q07011,interaction_cards_v2.jsonl,interaction-v2:INT-00326
+adnectin,INT-00370,PROT-01126,Fibronectin type III domain,Homo sapiens,TBP-01126,ISOP193ER9P1A3,TNFRSF9,TVAR-00065,TGT-00054,TNFRSF9,Homo sapiens,TNFRSF9,Q07011,interaction_cards_v2.jsonl,interaction-v2:INT-00370
+affimer,INT-00574,PROT-01540,stefin A,Homo sapiens,TBP-01540,HSA-41,ALB,TVAR-00085,TGT-00073,ALB,Homo sapiens,ALB,P02768,interaction_cards_v2.jsonl,interaction-v2:INT-00574
+cyclotide,INT-00205,PROT-00576,vitri cyclotide,Viola tricolor,TBP-00576,vitri cyclotide,OPRK1,TVAR-00045,TGT-00036,OPRK1,Homo sapiens,OPRK1,P41145,interaction_cards_v2.jsonl,interaction-v2:INT-00205
+cyclotide,INT-00260,PROT-00944,caripe 10,Carapichea ipecacuanha,TBP-00944,caripe 10,OPRK1,TVAR-00045,TGT-00036,OPRK1,Homo sapiens,OPRK1,P41145,interaction_cards_v2.jsonl,interaction-v2:INT-00260
+knottin,INT-00118,PROT-00307,Huwentoxin-IV,Haplopelma schmidti,TBP-00307,HwTx-IV 3M,SCN9A,TVAR-00029,TGT-00022,SCN9A,Homo sapiens,SCN9A,P83303,interaction_cards_v2.jsonl,interaction-v2:INT-00118

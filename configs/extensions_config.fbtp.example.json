@@ -1,0 +1,18 @@
+{
+    "mcpServers":  {
+                       "fbtp-rag":  {
+                                        "enabled":  true,
+                                        "type":  "http",
+                                        "url":  "http://127.0.0.1:8000/mcp",
+                                        "description":  "Private FBBP knowledge retrieval over ragkb (HTTP MCP)"
+                                    }
+                   },
+    "skills":  {
+                   "fbtp-deep-research":  {
+                                              "enabled":  true
+                                          },
+                   "fbtp-structured-analysis":  {
+                                                    "enabled":  true
+                                                }
+               }
+}

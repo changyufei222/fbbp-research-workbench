@@ -1,0 +1,99 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://fbbp.local/schemas/control-plane/a2a-envelope-v1.json",
+  "title": "FBBP Control Plane A2A Envelope v1",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "message_id",
+    "correlation_id",
+    "message_type",
+    "phase",
+    "trace_id",
+    "parent_run_id",
+    "child_run_id",
+    "hop_index",
+    "source_agent",
+    "target_agent",
+    "route",
+    "status"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "fbbp.a2a.envelope.v1"
+    },
+    "message_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "message_type": {
+      "enum": ["child_run_request", "child_run_result", "child_run_error"]
+    },
+    "phase": {
+      "enum": ["requested", "completed", "error"]
+    },
+    "correlation_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "trace_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "parent_run_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "child_run_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "hop_index": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "hop_path": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "source_agent": {
+      "type": "string"
+    },
+    "target_agent": {
+      "type": "string"
+    },
+    "target_executor": {
+      "type": ["string", "null"]
+    },
+    "target_executor_mode": {
+      "type": ["string", "null"]
+    },
+    "route": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "created_at_utc": {
+      "type": ["string", "null"]
+    },
+    "input_ref": {
+      "type": ["string", "null"]
+    },
+    "payload_ref": {
+      "type": ["string", "null"]
+    },
+    "artifact_ref": {
+      "type": ["string", "null"]
+    },
+    "error": {
+      "type": ["object", "string", "null"]
+    },
+    "metadata": {
+      "type": "object"
+    }
+  },
+  "additionalProperties": false
+}

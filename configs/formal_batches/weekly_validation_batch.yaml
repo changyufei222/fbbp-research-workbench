@@ -1,0 +1,11 @@
+batch_slug: weekly_validation_batch
+runtime_profile: local_formal
+dataset_version: fbbp_private_v2026_04
+mcp_contract_version: "1.1"
+execution:
+  mode: sequential
+  continue_on_error: true
+cases:
+  - fbbp_knottin_landscape_01
+  - fbbp_source_provenance_review_01
+acceptance_profile: formal_batch_default

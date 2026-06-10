@@ -1,0 +1,23 @@
+You have access to a private knowledge MCP server for the real FBBP database.
+
+Please do the following in order:
+1. Use the private MCP tool `list_sources` first with `limit=20`.
+2. Treat `chunk_count` as the operational definition of which indexed sources dominate the current FBBP runtime.
+3. Call `get_source_summary` for the top 3 sources returned by `list_sources`.
+4. Use the returned source names themselves to infer only coarse source categories, such as:
+   - `plmsearch_results.csv` -> PLM / similarity search outputs
+   - `loop_annotations.csv` -> loop annotation records
+   - `loop_flexibility_results.csv` -> loop flexibility metrics
+   Mark these as filename-based inference, not confirmed schema-level semantics.
+5. Do not call `search_knowledge` just to explain what a source filename means. Only call it if `list_sources` or `get_source_summary` fail and you still need a fallback provenance example.
+6. Stop once you can cite the highest-chunk-count sources, their record types, and the key provenance caveat that chunk_count measures indexed coverage rather than scientific quality.
+
+Question:
+Which primary sources dominate the current FBBP database, what kinds of records do they seem to cover, and what provenance caveats should a user keep in mind?
+
+Output requirements:
+- give a concise conclusion
+- list the most important source identifiers or source names
+- include `chunk_count` for the top returned sources when available
+- separate supported findings from uncertainty
+- keep the answer grounded in source summary evidence first

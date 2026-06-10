@@ -1,0 +1,42 @@
+version: 1
+queue_backend: postgres
+queue_root: runs/control_plane/a2a_queue
+max_attempts: 3
+backoff_seconds: 30
+lease_seconds: 900
+streaming:
+  enabled: true
+  max_events: 100
+  heartbeat_seconds: 15
+push_notifications:
+  enabled: true
+  timeout_seconds: 5
+  allowed_url_prefixes:
+    - http://127.0.0.1
+    - http://localhost
+auth:
+  enabled: true
+  allow_public_agent_card: true
+  api_key_env: FBBP_A2A_API_KEY
+  header_names:
+    - Authorization
+    - X-A2A-API-Key
+    - X-FBBP-A2A-API-Key
+  oidc:
+    enabled: false
+    issuer: https://issuer.example.com
+    audience: fbbp-a2a-gateway
+    required_scopes:
+      - a2a:submit
+    trust_proxy_headers: false
+    verify_signature: false
+postgres:
+  dsn_env: FBBP_A2A_POSTGRES_DSN
+  table_name: fbbp_a2a_tasks
+  connect_timeout_seconds: 5
+retryable_errors:
+  - timeout
+  - rate limit
+  - connection
+  - temporarily unavailable
+dead_letter_root: runs/control_plane/dead_letters

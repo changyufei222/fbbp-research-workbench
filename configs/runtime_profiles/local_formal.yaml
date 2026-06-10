@@ -1,0 +1,8 @@
+runtime_profile: local_formal
+stack_entrypoint: scripts/start_stack_core.ps1
+deerflow_config_path: generated/fbbp.config.yaml
+extensions_config_path: generated/extensions_config.fbbp.json
+mcp_url: http://127.0.0.1:8000/mcp
+batch_defaults:
+  mode: sequential
+  continue_on_error: true

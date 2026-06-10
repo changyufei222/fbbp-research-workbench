@@ -1,0 +1,21 @@
+{
+  "version": "1.0",
+  "lastUpdated": "2026-05-01T13:11:58.491655+00:00",
+  "user": {
+    "workContext": {
+      "summary": "route=report_generation; query=Run local report_generation e2e smoke",
+      "updatedAt": "2026-05-01T13:11:58.491655+00:00"
+    },
+    "preferences": {
+      "summary": "",
+      "updatedAt": ""
+    }
+  },
+  "history": {
+    "recentSessions": {
+      "summary": "route=report_generation; query=Run local report_generation e2e smoke",
+      "updatedAt": "2026-05-01T13:11:58.491655+00:00"
+    }
+  },
+  "facts": []
+}
